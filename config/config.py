@@ -33,7 +33,7 @@ DURATION_LIMIT_MIN = int(
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "200")
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "851754691").split())
+    map(int, getenv("OWNER_ID", "5372076947").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -72,7 +72,7 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/pantekyks
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -136,10 +136,10 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING2 = getenv("STRING_SESSION2", "BQANJP6YQuxeDg6ry8swpUlPqxxdoy6JphMfmZSCTomNd80MuEQL1fYBqRczueNiYLZiE3qj-kkla20gzlSHAD4ThU9k4dT89Dq221bqeixyyZSZYQnCCkQ0j7qm0z_2d6cX7vuyYYFKsFYx9CYdT3ypbVGlGH01157Gb5P2Q8otQ2FFOwnHvhJY0Vdro59e7YeZp7SgzWjVFT8wMIegHEQ_t7XrTnvSzNhS8wCpVu04zjLV4vgfKGaM5oT4CVSoGf21z1BeAWQNDdbYcuq6vysO-Uh4gpj-w2zgQG5nBaEiqWT9N46lpIJauDh0y6gBE_2uWgDWDFolEwQJY_DXy8FdeZExFgA")
+STRING3 = getenv("STRING_SESSION3", "BQC0yu-1LumBdCq44lbX2S_RLWe9VcDdi8cRaIoXLWWi-7QPb2KsS2rwgC6tfXAt8n97WYVRgIeLPpBappSRJspoXEpQNXkOVWVvvL0A3-ZLpnpbM_T2pE91RhfI4bPK9U17o8OjtfhcJbKbD9HyVpdLDOI-BxKJZKB5cC24aM7rGj_wqSqeoL4J1vxkyXJYGhkRtexxdxqKyyERmH-yLz8aPZ58w6LWA9aTs-xvJ_IaT6XdbFcxLavXSQ6JUexKFaELf53i7-YNHtbfm3rRVfneAU_3WuEixJZRlOinM_G6DzKLlln0PpCC-Cyg8EPy_XN_8-zgVmon1vOIYE1tAy4pAAAAASsKEWgA")
+STRING4 = getenv("STRING_SESSION4", "BQCj2yQEtUGrHyJyraXWa9nY866uCW9MGIueypBdtTE2gI6aqvzVwtfp-BYbgNpBv1WGiT-yPYxRKqNSpWWiUKc-2NtTexmWOQ2vAIGpGabrVg42BbdnLEweGCJrBSL6O2dBT-wKbYHpNTPiTIRZM1LB-tL19ZEN7-XaMtED1xynRjjYFn4j2v4IdEybvp17ELe_DuXzh9XuqQgD_b4xc-Dwoz7VhzjhzzB9dLyrZJldKNmOqJz1BTv53uKN2KRyBi7uwkEy8ZbqSosvfDa6Pz7d4ntyI97P5awmVNNcJ2myhrHXd-qKH7qp5bYK4SAtTrxLpr4T1ObvzasCJRE6WuKWaDaW6wA")
+STRING5 = getenv("STRING_SESSION5", "BQBOmNz4bZZvJGN_2-4Aa2QWakcGG-biHBdDcSmcBPf7t7AgnvGa3C2-c_gmyIw7BUcC4vg4y2pqELyfwVhoyFswmywAGhA5F1E-ZfwlBze2OEUdErVDvIMelMmJirvkZFD-5PDUofclWh7shl8BaDApjYl2wgYSzOis_-xoUUCTWGNlJ10raM2GyBOmGT-nbJyCtgOksek257RQ8aG2wzqgTrz4Xm0oZHOLiK4dnFNBdkr9_lWxbzc2vX3wvzBHx5dU8hHGWQmVW39PLUn3ZnYf3sgFrQFvCsEWLzaTv6FqdwR5cJ_SzI7Mb6sZpR9hOLEQDzYHbMB4q5d7BRExiD2EdVvBUwA")
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
